@@ -1,14 +1,9 @@
 @charset "UTF-8";
 
-
-
 * {
     margin: 0px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 html {
@@ -73,16 +68,17 @@ p{
     margin-bottom: 3rem;
 }
 .responsive-table{
+    overflow: hidden;
     overflow-x: auto;
 }
 table{
     width: 100%;
     border-collapse: collapse;
-    min-width: 60rem;
+    min-width: 360px;
 
 }
 table caption{
-    font-style: italic;
+    font-style: italic;                                           
     font-size: 1.6rem;
     text-align: left;
     margin-bottom: 1rem;
